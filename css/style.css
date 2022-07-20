@@ -187,14 +187,18 @@ hr {
 }
 
 /* responsive */
-/* @media screen and (max-width: 576px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-  .player-section1 {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    flex-direction: column;
-  }
-} */
+@media screen and (max-width: 576px) {
+.watch-button{
+  margin-top: 60px;
+  margin-left: 30%;
+  height: 50px;
+  width: 20px;
+}
+.Greatest-show p{
+  margin-bottom: 35px;
+}
+.Greatest-show img{
+  margin-top: 20px;
+  margin-left: 20%;
+}
+} 
