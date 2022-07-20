@@ -24,10 +24,62 @@ body {
 .Greatest-show {
   width: 50%;
 }
-.Greatest-show a{
+.Greatest-show a {
   color: white;
   background-color: orangered;
   text-decoration: none;
   padding: 3px 10px;
   border-radius: 5px;
+}
+/* blog-image(part-2) */
+
+#schedule {
+  background-color: black;
+  width: 170px;
+  height: 160px;
+  border-radius: 5px;
+}
+#schedule a {
+  display: block;
+  text-decoration: none;
+  background-color: white;
+}
+
+/* ..................footer (part-3)..........................*/
+.end {
+  width: 900px;
+  height: 220px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.goal {
+  padding-top: 30px;
+}
+hr {
+  width: 700px;
+}
+.list {
+  list-style: none;
+  color: white;
+  display: flex;
+
+  justify-content: center;
+}
+.list li {
+  padding-left: 10px;
+}
+.social-media {
+  display: flex;
+  padding: 20px;
+  list-style: none;
+  justify-content: center;
+}
+.social-media li {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.social-media > li > a {
+  text-decoration: none;
+  color: gray;
 }
