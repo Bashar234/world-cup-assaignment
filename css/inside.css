@@ -17,7 +17,7 @@ body {
   margin-top: 21px;
   border-radius: 10px;
   left: 140px;
-  top: 50px;
+  top:50px;
   align-items: center;
 }
 .top-banner {
@@ -56,45 +56,56 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
-.input-field-1 {
-  width: 252px;
-  height: 64px;
-  border-radius: 10px;
+.flag-item{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.p-vs{
+    margin-left:6px;
+    margin-right: 6px;
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+    margin-left: 16px;
+}
+p{
+    margin-left: 16px;
+    margin-top: 0%;
+}
+.input-field-1{
+width: 252px;
+height: 64px;
+border-radius: 10px;
 }
 .downstairs {
   margin-top: 5px;
 }
-.player-section1 {
+.player-section1{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.player-section-2 {
+.player-section-2{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-.player-section-3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.player-image {
-  width: 310px;
-  height: 360px;
-  margin-left: 18px;
-  top: 826px;
+  margin-left: 330px;
+  margin-top: 20px;
 }
 
-.player-image-2 {
+.player-image{
   width: 310px;
   height: 360px;
-  margin-left: 348px;
+  margin-left:18px;
   top: 826px;
+  border-radius: 5px;
+  box-shadow: 2px;
+  border: 1px solid gray;
+  text-align: center;
 }
-.player-image-3 {
-  width: 310px;
-  height: 360px;
-  margin-left: 348px;
-  top: 826px;
-}
+
+
 /* #schedule > ul {
   margin-top:50px;
 } */
@@ -116,19 +127,8 @@ body {
 .span-2 {
   margin-left: 15px;
 }
-/* extra-part */
-.button-section {
-  text-align: center;
-  margin-top: 20px;
-}
-.view-btn {
-  background-color: red;
-  padding: 8px 15px;
-  border-radius: 10px;
-  color: white;
-}
 /* ..................footer (part-3)..........................*/
-.final-part {
+.final-part{
   padding-top: 60px;
 }
 .down-area {
@@ -165,12 +165,4 @@ body {
 .social-media > li > a {
   text-decoration: none;
   color: gray;
-}
-
-/* responsive */
-@media screen and (max-width: 576px) {
-  .top-banner {
-    display: flex;
-    flex-direction: column;
-  }
 }
