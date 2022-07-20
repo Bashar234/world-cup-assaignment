@@ -45,6 +45,23 @@ body {
   background-color: white;
 }
 
+.transfer {
+  border: 2px solid salmon;
+  border-radius: 4px;
+  width: 65px;
+  padding: 3px 6px;
+  margin-left: 10px;
+}
+.club-change {
+  width: 290px;
+  margin-left: 10px;
+}
+.span-1 {
+  margin-left: 15px;
+}
+.span-2 {
+  margin-left: 15px;
+}
 /* ..................footer (part-3)..........................*/
 .end {
   width: 900px;
