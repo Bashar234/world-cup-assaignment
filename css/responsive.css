@@ -1,0 +1,21 @@
+
+/* mobile-device */
+@media screen and (max-width:575.98px) {
+    .top-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-header h1{
+        text-align:center;
+    }
+    .Greatest-show p{
+        height: 50px;
+        width: 480px;
+    }
+    .watch-button{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
