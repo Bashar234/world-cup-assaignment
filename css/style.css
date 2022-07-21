@@ -14,7 +14,7 @@ body {
   background-color: blanchedalmond;
   color: chocolate;
   width: 1252px;
-  height: 600px;
+  height: 700px;
   padding: 30px;
   margin-top: 21px;
   border-radius: 10px;
@@ -26,9 +26,7 @@ body {
 .top-banner {
   display: flex;
 }
-.ball-effect {
-  visibility: hidden;
-}
+
 .Greatest-show {
   width: 50%;
 }
@@ -39,7 +37,22 @@ body {
   padding: 3px 20px;
   border-radius: 5px;
 }
-.container:hover .ball-effect {
+.ball-effect {
+  visibility: hidden;
+  border: 2px solid red;
+  width: 500px;
+  height: 280px;
+}
+.inner {
+  width: 200px;
+  transition: transform 2s;
+}
+.inner img {
+  border-radius: 60px;
+}
+.container:hover .inner {
+  width: 350px;
+  transform: translate(300px);
   visibility: visible;
 }
 
@@ -187,18 +200,18 @@ hr {
 }
 
 /* responsive */
-@media screen and (max-width: 576px) {
-.watch-button{
-  margin-top: 60px;
-  margin-left: 30%;
-  height: 50px;
-  width: 20px;
-}
-.Greatest-show p{
-  margin-bottom: 35px;
-}
-.Greatest-show img{
-  margin-top: 20px;
-  margin-left: 20%;
-}
-} 
+/* @media screen and (max-width: 576px) {
+  .watch-button {
+    margin-top: 60px;
+    margin-left: 30%;
+    height: 50px;
+    width: 20px;
+  }
+  .Greatest-show p {
+    margin-bottom: 35px;
+  }
+  .Greatest-show img {
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+} */
