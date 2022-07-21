@@ -200,7 +200,7 @@ hr {
 }
 
 /* responsive */
-/* @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .watch-button {
     margin-top: 60px;
     margin-left: 30%;
@@ -214,4 +214,4 @@ hr {
     margin-top: 20px;
     margin-left: 20%;
   }
-} */
+}
